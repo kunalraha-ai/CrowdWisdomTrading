@@ -8,9 +8,10 @@ kanban-plugin: board
 - [ ] Ad Scraping
 - [ ] Ad Script Writer
 - [ ] Pain Point Extraction
-- [ ] Competitor Research
-- [ ] Social Post Repurposer
 
 ## In Progress
 
 ## Done
+- [x] Competitor Research
+- [x] Social Post Repurposer
+

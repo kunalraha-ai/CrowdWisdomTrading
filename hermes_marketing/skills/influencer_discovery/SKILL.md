@@ -10,7 +10,7 @@ This skill directs the agent to execute the influencer discovery, metrics valida
 ## Execution Steps
 
 1. Run the Influencer Outreach Agent script by executing the following command in the terminal:
-   `python -m hermes_marketing.agents.influencer_outreach`
+   `cd "C:\Users\kunal\OneDrive\pineapple\Ma4rketing Agent" && python -m hermes_marketing.agents.influencer_outreach`
 
 2. Verify from the command output that the Obsidian Kanban board was updated (moved to "In Progress" and then to "Done" for both "Influencer Discovery" and "Cold Outreach Drafting") and that `influencers.json` and outreach drafts in `outputs/outreach_drafts/` were written successfully.
 

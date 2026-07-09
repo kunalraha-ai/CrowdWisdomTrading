@@ -11,15 +11,13 @@
             "id": "b5682a73114c5fa8",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
                 "file": "Marketing Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
-                }
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
+              "icon": "lucide-file",
               "title": "Marketing Kanban"
             }
           }
@@ -188,5 +186,7 @@
     }
   },
   "active": "b5682a73114c5fa8",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "image.png"
+  ]
 }

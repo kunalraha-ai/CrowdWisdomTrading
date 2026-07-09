@@ -1,0 +1,33 @@
+# Hermes Agent configuration for CrowdWisdomTrading Marketing Agent
+
+# 1. External Skills Directory
+skills:
+  loading: eager # Eagerly load skills to make them immediately available
+  external_dirs:
+    # Add absolute path to hermes_marketing/skills in the workspace
+    - "c:/Users/kunal/OneDrive/pineapple/Ma4rketing Agent/hermes_marketing/skills"
+
+# 2. LLM Provider Configuration (OpenRouter)
+providers:
+  openrouter:
+    base_url: "https://openrouter.ai/api/v1"
+    # Note: OpenRouter API key is loaded from the environment
+    model: "meta-llama/llama-3-8b-instruct:free" # Default cheap/free model for development
+    models:
+      - "meta-llama/llama-3-8b-instruct:free"
+      - "qwen/qwen-2.5-72b-instruct"
+      - "google/gemini-flash-1.5"
+
+# 3. Gateway Configuration (Telegram Bot)
+platforms:
+  telegram:
+    enabled: true
+    dm_policy: open
+    group_policy: open
+    # Note: Telegram bot token is loaded from TELEGRAM_BOT_TOKEN environment variable
+    user_allowed_commands:
+      - "/run"
+      - "/reset"
+      - "/help"
+      - "/model"
+    allow_admin_from: [] # Empty allows anyone who triggers the bot, or add specific Telegram User IDs

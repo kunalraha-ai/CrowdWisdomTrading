@@ -181,3 +181,22 @@ Open Telegram, search for your bot's handle (e.g. `@Ma4ketingbot`), and send **`
 Open the `obsidian_vault` directory as a Vault in **Obsidian** and enable the **Kanban** community plugin. 
 
 Open `Marketing Kanban.md` inside Obsidian to see a visual, drag-and-drop workflow dashboard. When the subagents run, the cards will automatically move between columns in real-time as they execute!
+
+## 8. My Scope
+Idea 1: The YouTube Sentiment Analyst & Topic Ideator (Highly Recommended)
+Concept: A content strategy agent that takes the discovered influencers (like Humphrey Yang or Graham Stephan) and downloads the transcripts of their most recent trending videos. It extracts the exact questions, pain points, and current market trends the creators are discussing, and generates a Content Plan (highly optimized video hook titles and talking points) for CrowdWisdomTrading's own channel.
+Why it's a great scope addition: We already have the transcript extraction code in 
+youtube_transcript.py
+. Extending it to automatically analyze trending topics and feed it to the Marketing Manager to generate CWT video ideas bridges the gap between influencer discovery and content creation.
+
+Idea 2: Organic Viral Repurposer (X Threads & LinkedIn Stories)
+Concept: A dedicated agent that takes the paid video script output (like noise_short.md) and automatically repurposes it into a formatted, high-hook X (Twitter) thread and a LinkedIn story tailored to CWT’s tone of voice.
+Why it's a great scope addition: Paid ads only cover one side of marketing. This adds organic distribution. We already built a basic version of this in marketing_manager.py (which produces social_posts_drafts.md), but defining it as a full-fledged agent skill called social_distribution makes the multi-platform strategy complete.
+
+Idea 3: The Affiliate & Tiered Partnership Customizer
+Concept: Instead of a generic review request, this agent calculates a custom commercial proposal based on the creator's follower count and platform (e.g., offering a specific affiliate tier, custom promo code like CWT_HUMPHREY, and estimating their earning potential if 0.1% of their audience converts).
+Why it's a great scope addition: Cold emails asking for "honest feedback" get low response rates. Adding a concrete, personalized partnership calculation makes the pitch highly professional and incentivizes them to reply.
+
+Idea 4: Competitor Ad Strategy Analyst (Budget & Platform Estimator)
+Concept: An agent that aggregates the scraped competitor ads and estimates which platforms are performing best (longevity of ads, spend estimates) to output a Platform Recommendation Report for CWT (e.g., "TradingView is running 80% of ads on Instagram with a focus on discount hooks; we recommend allocating 60% of CWT budget to Instagram Stories").
+Why it's a great scope addition: It upgrades the Ads Manager from an "ad scraper" into a "strategic media planner," providing real business decision support.

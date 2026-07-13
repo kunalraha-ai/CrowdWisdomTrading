@@ -16,7 +16,7 @@ This system is powered by the **Nous Research Hermes Agent** framework, orchestr
     *   **Noise Filtering:** Consolidated, zero-hype consensus.
     *   **Actionable Setups:** High-conviction swing trade entry points, stop-losses, and profit targets.
     *   **Rhythm:** *"Sunday Read. Monday Act."* Designed to let busy professionals plan their week in 15 minutes and execute without mid-week stress.
-*   **Tone of Voice:** Professional, evidence-based, realistic, direct, and risk-aware (no quick-rich promises).
+*   **Tone of Voice:** Professional, evidence-based, realistic, direct, and risk-aware (no quick-rich promises). 
 
 ---
 

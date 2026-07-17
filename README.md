@@ -2,7 +2,7 @@
 
 An autonomous, multi-agent marketing and research pipeline designed to scale organic outreach, analyze competitors, scrape advertising materials, extract emotional triggers, and write high-converting video scripts for **CrowdWisdomTrading (CWT)**.
 
-This system is powered by the **Nous Research Hermes Agent** framework, orchestrating dedicated subagents, custom Python toolsets, and external API connectors. It integrates with the **Telegram Bot Gateway** for remote control and automatically updates an **Obsidian Kanban Board** in real-time to visualize operational progress.
+This system is powered by the **Nous Research Hermes Agent** framework, orchestrating dedicated subagents, custom Python toolsets, and external API connectors. It integrates with the **Telegram Bot Gateway** for remote control and automatically updates an **Obsidian Kanban Board** in real-time to visualize operational in progress.
 
 ---
 
